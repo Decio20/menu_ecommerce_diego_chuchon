@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.mi_body{
+    font-family:sans-serif;
+    padding: 90px 20px 0;
+}
+
+.mi_header{
+    background-color:#945D31;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.nombre{
+    padding:0 40px;
+    text-align:center;
+    color:#3F2212;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    max-width: 992px;
+    margin:0 auto;
+}
+
+.nav-menu-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    padding:0 40px;
+    line-height: 80px;
+}
+
+.nav-menu{
+    display:flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 21px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+    background-color: #3F2212;
+    transition: 0.5s;
+}
+
+.nav-toggle{
+    color:white;
+    background: none;
+    border: none;
+    font-size:25px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
